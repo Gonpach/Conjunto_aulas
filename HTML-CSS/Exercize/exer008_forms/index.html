@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>coisa de trecos de forms</title>
+</head>
+<body>
+    <div>
+        <form>
+            <label for="Nome">Nome</label>
+            <input id="Nome" type="text" placeholder="Nome de la contita" maxlength="10" required name="nome">
+            <label for="Senha">Senha</label>
+            <input id="Senha" type="password" placeholder="digite seu senha aqui" required name="senha">
+        
+            <label for="Telefone">Telefone</label>
+            <input id="Telefone" type="number" placeholder="Telfone aqui" required maxlength="10" name="telefone">
+            <button type="submit">Enviar dados para alguem 👀</button>
+        </form>
+    </div>
+
+    <br>
+
+<div>
+    
+        <form>
+            <label for="Email">Email</label>
+            <input type="radio" value="email" name="Exemplo" id="Email">
+    
+            <label for="Telefone">Telefone</label>
+            <input type="radio" value="telefone" name="Exemplo" id="Telefone">
+    
+            <button type="submit">Enviar</button>
+        </form>
+</div>
+
+    <br>
+
+    <div>
+        <form>
+            <label for="hypometro">Qual seu nivel de hype?</label>
+            <select name="hypometro" id="hypometro" required="true">
+                <option value="">Fala ai</option>
+                <option value="">Malouco de hype</option>
+                <option value="">legal mas só tb</option>
+                <option value="">Hulk gaucho vibe</option>
+            </select>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+    <br>
+
+    <textarea placeholder="Escreve qualquer coisa só pra ver se funciona" name="texsto" id="texsto" cols="15" rows="10"></textarea>
+</body>
+</html>
