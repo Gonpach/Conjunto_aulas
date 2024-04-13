@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+h2
+{
+   color: darkgoldenrod;
+}
+
+.fruta
+{
+    background-color: violet;
+}
+
+#lista_fruta
+{
+    color: darkred;
+    background-color: sienna;
+}
