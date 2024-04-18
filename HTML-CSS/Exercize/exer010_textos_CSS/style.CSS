@@ -17,3 +17,7 @@ p{
 
     font-weight: 300;
 }
+
+.content-main {
+    max-width: 200px;
+}
