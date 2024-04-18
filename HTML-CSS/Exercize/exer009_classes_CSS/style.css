@@ -15,3 +15,16 @@ h2
     color: darkred;
     background-color: sienna;
 }
+
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+input[type] {
+    background-color:lightyellow;
+    color: rgba(142, 172, 136, 0.781);
+}
+
+a[href$=".com.br"] {
+    color: mediumvioletred;
+}
