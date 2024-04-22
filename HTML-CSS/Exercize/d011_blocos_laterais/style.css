@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+div{
+    background-color: blue;
+    color: white;
+    width: 5em;
+    padding-right: 1%;
+}
+
+inline{
+    background-color: blue;
+    color: white;
+    width: 5em;
+    padding-right: 2%;
+    padding: 1.5%;
+}
+
+em{
+    background-color: blue;
+    color: white;
+    width: 5em;
+    padding-right: 2%;
+    padding: 1.5%;
+}
